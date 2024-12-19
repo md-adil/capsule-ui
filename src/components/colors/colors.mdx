@@ -1,0 +1,44 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/blocks";
+import { defaultColor } from "../../theme/colors/colors.js";
+
+<Meta title="Core/Colors" />
+
+<ColorPalette>
+  <ColorItem
+    key="primary"
+    title="Primary"
+    colors={{ ...defaultColor["primary"] }}
+  />
+  <ColorItem
+    key={"secondary"}
+    title={"Secondary"}
+    colors={{ ...defaultColor["secondary"] }}
+  />
+  <ColorItem
+    key={"tertiary"}
+    title={"Tertiary"}
+    colors={{ ...defaultColor["tertiary"] }}
+  />
+  <ColorItem
+    key={"success"}
+    title={"Success"}
+    colors={{ ...defaultColor["success"] }}
+  />
+  <ColorItem
+    key={"error"}
+    title={"Error"}
+    colors={{ ...defaultColor["error"] }}
+  />
+  <ColorItem
+    key={"caution"}
+    title={"Caution"}
+    colors={{ ...defaultColor["caution"] }}
+  />
+  <ColorItem key={"gray"} title={"Gray"} colors={{ ...defaultColor["gray"] }} />
+  <ColorItem
+    key={"accent"}
+    title={"Accent"}
+    colors={{ ...defaultColor["accent"] }}
+  />
+  <ColorItem key={"info"} title={"Info"} colors={{ ...defaultColor["info"] }} />
+</ColorPalette>

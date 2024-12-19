@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "@ebh/capsule",
+  "include": ["src"],
+  "compilerOptions": {
+    "lib": ["es2019", "dom"],
+    // ES Modules
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
+    // Output
+    "preserveWatchOutput": true,
+    "declarationMap": true,
+    "declaration": true,
+    "outDir": "dist",
+    // JSX and React
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    // Strict
+    "strict": true,
+    "allowUnreachableCode": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true
+  }
+}
